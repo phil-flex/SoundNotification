@@ -5,8 +5,9 @@
  * Copyright (c) 2018 Valentino Pesce - https://iltuobrand.it
  */
 
-var getUrl = window.location;
-var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
+//var getUrl = window.location;
+//var baseUrl = getUrl.protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
+var baseUrl = window.location.protocol + "//" + window.location.hostname + "/" + window.location.pathname.split('/')[1] + "/";
 
 function soundalert()
 {
